@@ -1,0 +1,148 @@
+################################################################################
+# 📦 GENERAL
+################################################################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.lock
+*.env
+*.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+################################################################################
+# 🐍 PYTHON (FastAPI / OpenAI)
+################################################################################
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build / distribution
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Coverage / test reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# Type checker
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+################################################################################
+# ⚛️ FRONTEND (React + Vite + Tailwind)
+################################################################################
+# Dependencies
+web-chat/node_modules/
+web-chat/package-lock.json
+
+# Build outputs
+web-chat/dist/
+web-chat/.next/
+web-chat/out/
+
+# Cache
+web-chat/.turbo/
+web-chat/.parcel-cache/
+web-chat/.cache/
+web-chat/.vite/
+
+# Env files
+web-chat/.env
+web-chat/.env.local
+web-chat/.env.*.local
+
+# Logs
+web-chat/npm-debug.log*
+web-chat/yarn-debug.log*
+web-chat/pnpm-debug.log*
+
+################################################################################
+# 🐳 DOCKER / COMPOSE
+################################################################################
+# Docker volumes, build cache
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+**/docker-compose.dev.yml
+**/Dockerfile.*
+
+# Ignore all build artifacts
+**/tmp/
+**/logs/
+**/data/
+**/__build__/
+**/site/
+**/.pytest_cache/
+
+################################################################################
+# 🧠 OPENAI / API KEYS / CONFIG
+################################################################################
+# Nunca subir claves reales
+api-chat/.env
+api-chat/.env.*
+!api-chat/.env.example
+
+# Tokens temporales o configuraciones locales
+*.key
+*.pem
+*.crt
+*.csr
+
+################################################################################
+# 🧪 TESTING / COVERAGE
+################################################################################
+test-results/
+reports/
+coverage/
+junit.xml
+
+
+################################################################################
+# 🪣 MISC
+################################################################################
+# VSCode history
+.history/
+.local/
+.cache/
+tmp/
+logs/
+__snapshots__/
