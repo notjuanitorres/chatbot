@@ -90,8 +90,3 @@ VITE_API_BASE=http://127.0.0.1:8000/api/v1
 
 Este proyecto se distribuye bajo licencia **MIT**.  
 Podés usarlo, modificarlo y mejorarlo libremente.
-
----
-
-> _“Cada línea de código es una oportunidad para enseñar, automatizar y construir confianza.”_
->>>>>>> bf5ce39 (upload project)
