@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# chatbot
-=======
 # 🤖 Chatbot IA – FastAPI + OpenAI + React + Tailwind
 
 Proyecto **full-stack educativo** que integra un **backend en FastAPI** (Python) con la **API de OpenAI** y un **frontend en React + Tailwind**.  
